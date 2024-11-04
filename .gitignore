@@ -1,0 +1,10 @@
+.DS_Store
+.env
+
+venv
+
+/.quarto/
+/_site/
+
+__pycache__
+rsconnect-python

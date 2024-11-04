@@ -1,0 +1,16 @@
+tg {
+  display: inline-block;
+  background-color: var(--bg, cornflowerblue);
+  color: var(--fg, black);
+  transition: all 200ms ease-out;
+
+  animation: fadein 300ms ease-out;
+  animation-fill-mode: backwards;
+  animation-delay: var(--delay, 0s);
+
+  &.highlight {
+    opacity: 1 !important;
+    box-shadow: 0 0 24px 1px rgb(0 0 0 / 0.5);
+    z-index: 100;
+  }
+}

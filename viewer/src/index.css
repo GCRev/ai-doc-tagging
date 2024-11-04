@@ -1,0 +1,41 @@
+:root {
+  --bg-color: #292929;
+  --fg-color: white;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  
+  position: relative;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  outline: none;
+  border: none;
+  background-color: color-mix(in hsl, var(--bg-color) 20%, cornflowerblue);
+  color: var(--fg-color);
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
